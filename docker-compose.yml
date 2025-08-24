@@ -1,0 +1,15 @@
+services:
+
+  how_much_cheaper_python:
+    container_name: how_much_cheaper_python
+    build:
+      context: ./
+      dockerfile: docker/python/Dockerfile
+    image: how_much_cheaper_python
+    volumes:
+      - "./src/:/braillest/src/"
+      - "./data/:/braillest/data/"
+
+networks:
+  default:
+    name: how_much_cheaper
