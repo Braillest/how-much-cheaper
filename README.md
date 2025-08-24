@@ -1,6 +1,6 @@
 
 <h1 align="center">
-How much cheaper?
+How Much Cheaper?
 </h1>
 
 ![](./data/output.gif)
